@@ -1,27 +1,17 @@
 module Aula01 where
-
 -- parar de rolar o GHC -> :q
 -- rodar dnv = ghci
-
-
 -- uma linha
 {-
     bloco de texto
-    
 -}
-
 dobro x = 2*x
-
 -- ____________________________________________ DEFINIÇÃO ____________________________________________
-
 {-
     dobro = nome da função
     x = parâmetro, pode ter 0 ou mais parametros
     2x* = expressao
 -}
-
-
-
 -- ____________________________________________ TESTE (ghci) ____________________________________________
 
 -- Pra compilar :l <<nome do arquivo>>
@@ -30,8 +20,6 @@ dobro x = 2*x
     
     -- o X se torna o argumento
     -- o retorno é o resultado
-
-
 -- _______________________________________ PARA COMPILAÇÃO _______________________________________________
 -- :l Modulo.hs (somente na primeira vez)
 -- :r (da segunda vez em diante)
